@@ -1,7 +1,6 @@
 import time
 import random
 from problems import is_valid, get_neighbors, manhattan_distance, GRID_SIZE
- 
 
 # Random Agent
 
