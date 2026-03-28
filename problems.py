@@ -66,9 +66,7 @@ def print_grid(path, pickup=PICKUP, title=""):
  
     # grid printing
     if title:
-        print(f"\n{'='*30}")
         print(f"  {title}")
-        print(f"{'='*30}")
  
     print("    " + "  ".join(str(c) for c in range(GRID_SIZE)))
     print("   " + "---" * GRID_SIZE)
